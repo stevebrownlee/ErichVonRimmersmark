@@ -18,7 +18,7 @@ namespace monsters
         }
 
         public void Ignite (ICombustable burner) {
-            burner.Burn("Fire");
+            burner.Burn("Blowtorch");
         }
 
         public void SplashWater (IUnholy spawn) {

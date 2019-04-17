@@ -7,9 +7,10 @@ namespace monsters
         public void Burn (string attack)
         {
             if (attack == "Fire") {
-                Console.WriteLine($"{attack} makes the mummy light up like a torch until it's a charred ball.");
+                Console.WriteLine($"* {attack} makes the mummy light up like a torch until it's a charred ball.");
+            } else {
+                NoEffect(attack);
             }
         }
     }
-
 }
