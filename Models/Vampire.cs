@@ -7,14 +7,14 @@ namespace monsters
         public void Burn (string attack)
         {
             if (attack == "Fire") {
-                Console.WriteLine ("The vampire burns like an oily rag until it's dead.");
+                Console.WriteLine ($"The {attack.ToLower()} causes the vampire to burn like an oily rag until it's dead.");
             }
         }
 
         public void Stab (string attack)
         {
             if (attack == "Silver") {
-                Console.WriteLine ("The vampire bleeds black blood from the wound and dies.");
+                Console.WriteLine ($"The {attack.ToLower()} causes the vampire to bleed black blood from the wound and dies.");
             }
         }
 

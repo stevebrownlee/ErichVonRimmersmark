@@ -9,13 +9,11 @@ namespace monsters {
             Vampire dracula = new Vampire ();
             Demon legion = new Demon ();
 
-            Console.WriteLine(VonRimmersmark);
-
             VonRimmersmark.Ignite (tuts);
             VonRimmersmark.Ignite (dracula);
             VonRimmersmark.SplashWater (legion);
-            VonRimmersmark.ThrowSillyPutty<Demon> (legion);
-            VonRimmersmark.ThrowSillyPutty<Vampire> (dracula);
+//            VonRimmersmark.ThrowSillyPutty<Demon> (legion);
+//            VonRimmersmark.ThrowSillyPutty<Vampire> (dracula);
         }
     }
 }
